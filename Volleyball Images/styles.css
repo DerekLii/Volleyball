@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Julius+Sans+One&family=Maven+Pro:wght@600&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+#title {
+  width: 1300px;
+  padding: 30px 100px 30px 30px;
+  margin-bottom: 20px;
+  font-family: "Julius Sans One", sans-serif;
+  border-bottom: 5px solid maroon;
+  border-right: 5px solid maroon;
+}
+
+#gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#footer {
+  height: 100px;
+}
+
+#logo {
+  position: absolute;
+  height: 90px;
+  left: 1200px;
+  top: 5px;
+}
+
+#aside {
+  float: right;
+}
+
+#gallery #team1 {
+  width: 600px;
+}
+
+#gallery #team2 {
+  width: 700px;
+}
+
+#gallery #team3 {
+  width: 700px;
+  height: 500px;
+}
+
+#gallery > * {
+  width: 400px;
+  height: 400px;
+  margin: 30px;
+  box-shadow: 3px 5px 5px black;
+  transition: all 1s;
+}
+
+#gallery img:hover {
+  transform: scale(1.1);
+}
+
+.second {
+  float: right;
+}
+
+.first {
+  float: left;
+}
+
+#video {
+  width: 800px;
+  height: 460px;
+}
